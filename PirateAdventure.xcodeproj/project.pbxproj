@@ -17,6 +17,7 @@
 		C1E6CEB11E19384D0006A7B3 /* PirateAdventureUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C1E6CEB01E19384D0006A7B3 /* PirateAdventureUITests.m */; };
 		C1E6CEC11E19533D0006A7B3 /* PirateTile.m in Sources */ = {isa = PBXBuildFile; fileRef = C1E6CEC01E19533D0006A7B3 /* PirateTile.m */; };
 		C1E6CECB1E195AE90006A7B3 /* PirateFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = C1E6CEC71E1954020006A7B3 /* PirateFactory.m */; };
+		C1E6CECE1E197FF40006A7B3 /* test.m in Sources */ = {isa = PBXBuildFile; fileRef = C1E6CECD1E197FF40006A7B3 /* test.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,8 @@
 		C1E6CEC01E19533D0006A7B3 /* PirateTile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PirateTile.m; sourceTree = "<group>"; };
 		C1E6CEC61E1954020006A7B3 /* PirateFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PirateFactory.h; sourceTree = "<group>"; };
 		C1E6CEC71E1954020006A7B3 /* PirateFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PirateFactory.m; sourceTree = "<group>"; };
+		C1E6CECC1E197FF40006A7B3 /* test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = test.h; sourceTree = "<group>"; };
+		C1E6CECD1E197FF40006A7B3 /* test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = test.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,8 @@
 				C1E6CE8F1E19384D0006A7B3 /* AppDelegate.m */,
 				C1E6CE911E19384D0006A7B3 /* ViewController.h */,
 				C1E6CE921E19384D0006A7B3 /* ViewController.m */,
+				C1E6CECC1E197FF40006A7B3 /* test.h */,
+				C1E6CECD1E197FF40006A7B3 /* test.m */,
 				C1E6CE941E19384D0006A7B3 /* Main.storyboard */,
 				C1E6CE971E19384D0006A7B3 /* Assets.xcassets */,
 				C1E6CE991E19384D0006A7B3 /* LaunchScreen.storyboard */,
@@ -304,6 +309,7 @@
 				C1E6CE901E19384D0006A7B3 /* AppDelegate.m in Sources */,
 				C1E6CE8D1E19384D0006A7B3 /* main.m in Sources */,
 				C1E6CEC11E19533D0006A7B3 /* PirateTile.m in Sources */,
+				C1E6CECE1E197FF40006A7B3 /* test.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -533,6 +539,7 @@
 				C1E6CEB71E19384D0006A7B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C1E6CEB81E19384D0006A7B3 /* Build configuration list for PBXNativeTarget "PirateAdventureTests" */ = {
 			isa = XCConfigurationList;
@@ -541,6 +548,7 @@
 				C1E6CEBA1E19384D0006A7B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C1E6CEBB1E19384D0006A7B3 /* Build configuration list for PBXNativeTarget "PirateAdventureUITests" */ = {
 			isa = XCConfigurationList;
@@ -549,6 +557,7 @@
 				C1E6CEBD1E19384D0006A7B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
