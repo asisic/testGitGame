@@ -15,6 +15,8 @@
 		C1E6CE9B1E19384D0006A7B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1E6CE991E19384D0006A7B3 /* LaunchScreen.storyboard */; };
 		C1E6CEA61E19384D0006A7B3 /* PirateAdventureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C1E6CEA51E19384D0006A7B3 /* PirateAdventureTests.m */; };
 		C1E6CEB11E19384D0006A7B3 /* PirateAdventureUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C1E6CEB01E19384D0006A7B3 /* PirateAdventureUITests.m */; };
+		C1E6CEC11E19533D0006A7B3 /* PirateTile.m in Sources */ = {isa = PBXBuildFile; fileRef = C1E6CEC01E19533D0006A7B3 /* PirateTile.m */; };
+		C1E6CECB1E195AE90006A7B3 /* PirateFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = C1E6CEC71E1954020006A7B3 /* PirateFactory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		C1E6CEAC1E19384D0006A7B3 /* PirateAdventureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PirateAdventureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1E6CEB01E19384D0006A7B3 /* PirateAdventureUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PirateAdventureUITests.m; sourceTree = "<group>"; };
 		C1E6CEB21E19384D0006A7B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1E6CEBF1E19533D0006A7B3 /* PirateTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PirateTile.h; sourceTree = "<group>"; };
+		C1E6CEC01E19533D0006A7B3 /* PirateTile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PirateTile.m; sourceTree = "<group>"; };
+		C1E6CEC61E1954020006A7B3 /* PirateFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PirateFactory.h; sourceTree = "<group>"; };
+		C1E6CEC71E1954020006A7B3 /* PirateFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PirateFactory.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,7 @@
 		C1E6CE8A1E19384D0006A7B3 /* PirateAdventure */ = {
 			isa = PBXGroup;
 			children = (
+				C1E6CEBE1E19529A0006A7B3 /* Model */,
 				C1E6CE8E1E19384D0006A7B3 /* AppDelegate.h */,
 				C1E6CE8F1E19384D0006A7B3 /* AppDelegate.m */,
 				C1E6CE911E19384D0006A7B3 /* ViewController.h */,
@@ -138,6 +145,25 @@
 				C1E6CEB21E19384D0006A7B3 /* Info.plist */,
 			);
 			path = PirateAdventureUITests;
+			sourceTree = "<group>";
+		};
+		C1E6CEBE1E19529A0006A7B3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C1E6CEC51E19539F0006A7B3 /* Factory */,
+				C1E6CEBF1E19533D0006A7B3 /* PirateTile.h */,
+				C1E6CEC01E19533D0006A7B3 /* PirateTile.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		C1E6CEC51E19539F0006A7B3 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				C1E6CEC61E1954020006A7B3 /* PirateFactory.h */,
+				C1E6CEC71E1954020006A7B3 /* PirateFactory.m */,
+			);
+			name = Factory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,9 +299,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1E6CECB1E195AE90006A7B3 /* PirateFactory.m in Sources */,
 				C1E6CE931E19384D0006A7B3 /* ViewController.m in Sources */,
 				C1E6CE901E19384D0006A7B3 /* AppDelegate.m in Sources */,
 				C1E6CE8D1E19384D0006A7B3 /* main.m in Sources */,
+				C1E6CEC11E19533D0006A7B3 /* PirateTile.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
